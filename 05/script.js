@@ -6,7 +6,7 @@ $(function(){
 	})
 	$('.social__link').click(function(evento){
 		evento.preventDefault();
-		alert('Esta es una imagen e ne')
+		alert($(this).parents('a').children('img').attr('alt'));
 	})
 	
 })
